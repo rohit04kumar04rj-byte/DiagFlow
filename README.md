@@ -1,16 +1,108 @@
-# React + Vite
+# 🏥 DiagFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Diagnostic Centre Discovery, Booking & Payment Platform
 
-Currently, two official plugins are available:
+DiagFlow is a healthcare-focused web application designed to simplify the process of finding diagnostic tests, comparing diagnostic centres, selecting available slots, and managing test bookings through a single platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** https://diag-flow-ctdhbg5md-rohit-kumarrohit04kumar04rj-byte-s-projects.vercel.app  
+💻 **GitHub:** https://github.com/rohit04kumar04rj-byte/DiagFlow
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Problem Statement
 
-## Expanding the Oxlint configuration
+Booking diagnostic tests can be inconvenient because patients often need to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Search for diagnostic tests across different centres
+- Compare prices and availability
+- Contact centres to find suitable appointment slots
+- Keep track of their bookings and confirmations
+
+DiagFlow aims to provide a centralized digital workflow for discovering and booking diagnostic services.
+
+---
+
+## ✨ Current Features
+
+### 🔎 Diagnostic Test Discovery
+- Search for diagnostic tests
+- Browse popular tests
+- View starting prices and available centres
+
+### 🏥 Centre Comparison
+- Compare diagnostic centres
+- View location and ratings
+- View indicative test pricing
+- View available appointment slots
+
+### 📅 Test Booking
+- Select a diagnostic centre
+- Choose an available time slot
+- Review booking details
+- Generate a booking confirmation
+
+### 💳 Payment Flow
+- Simulated payment workflow
+- Booking confirmation after successful demo payment
+- Unique booking ID generation
+
+### 👤 User Authentication
+- User registration
+- User login
+- Logout
+- Persistent demo session
+
+### 📊 Booking Dashboard
+- View previous bookings
+- View booking status
+- View selected centre and appointment details
+- View booking statistics
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Vite
+- React Router
+- JavaScript
+- CSS
+
+### Current Data Layer
+- Browser LocalStorage
+
+### Deployment
+- Vercel
+
+---
+
+## 🏗️ Application Flow
+
+```text
+Patient
+   │
+   ▼
+Search Diagnostic Test
+   │
+   ▼
+Compare Diagnostic Centres
+   │
+   ▼
+Select Centre
+   │
+   ▼
+Select Appointment Slot
+   │
+   ▼
+Review Booking
+   │
+   ▼
+Demo Payment
+   │
+   ▼
+Booking Confirmation
+   │
+   ▼
+My Bookings Dashboard
+
